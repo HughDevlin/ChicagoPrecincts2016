@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- 2016-11-16 HJD -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>TrumpLand Chicago</title>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+		<link rel="stylesheet" href="ChicagoPrecincts.css" />
+		<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+		<script src="ChicagoPrecinctFeatures.js"></script>
+		<script src="ChicagoPrecinctResults.js"></script>
+		<script src="ChicagoPrecincts.js"></script>
+	</head>
+	<body>
+		<h1>TrumpLand Chicago</h1>
+		<p>Trump as a percentage of Trump and Clinton</p>
+		<div id="map"></div>
+	</body>
+	<script>
+		ChicagoPrecincts("map", precinctFeatures, precinctResults);
+	</script>
+</html>
